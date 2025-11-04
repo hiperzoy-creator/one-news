@@ -1,0 +1,5 @@
+@layer utilities {
+    .font-momo {
+        font-family: "Momo Trust Display", sans-serif;
+    }
+}
