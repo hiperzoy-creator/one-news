@@ -37,27 +37,25 @@ const NewsFeed = () => {
     const [meta, setMeta] = useState<Meta | null>(null);
 
     const sourceBadges: Record<number, { name: string; color: string }> = {
-        1: { name: "Viva", color: "bg-blue-500" },
-        2: { name: "Cnn", color: "bg-red-500" },
-        3: { name: "Sindonews", color: "bg-green-500" },
-        4: { name: "Idx", color: "bg-orange-500" },
-        5: { name: "Okezone", color: "bg-purple-500" },
-        6: { name: "Cnbc", color: "bg-pink-500" },
-        7: { name: "Antaranews", color: "bg-gray-600" },
-        8: { name: "Tempo", color: "bg-yellow-500" },
-        9: { name: "Okz - Finance", color: "bg-purple-500" },
+        1: { name: "Sindonews", color: "bg-blue-500" },
+        2: { name: "Viva", color: "bg-red-500" },
+        3: { name: "Okezone", color: "bg-green-500" },
+        4: { name: "Antaranews", color: "bg-orange-500" },
+        5: { name: "Cnbc", color: "bg-purple-500" },
+        7: { name: "Cnn", color: "bg-gray-600" },
+        8: { name: "Idx", color: "bg-yellow-500" },
+        9: { name: "Tempo", color: "bg-purple-500" },
     };
 
     const sources = [
-        { id: 1, name: "Viva" },
-        { id: 2, name: "Cnn" },
-        { id: 3, name: "Sindonews" },
-        { id: 4, name: "Idx" },
-        { id: 5, name: "Okezone" },
-        { id: 6, name: "Cnbc" },
-        { id: 7, name: "Antaranews" },
-        { id: 8, name: "Tempo"},
-        { id: 9, name: "Okezone - Finance" }
+        { id: 1, name: "Sindonews" },
+        { id: 2, name: "Viva" },
+        { id: 3, name: "Okezone" },
+        { id: 4, name: "Antaranews" },
+        { id: 5, name: "Cnbc" },
+        { id: 7, name: "Cnn" },
+        { id: 8, name: "Idx"},
+        { id: 9, name: "Tempo" }
     ]
 
     useEffect(() => {
@@ -299,3 +297,4 @@ const NewsFeed = () => {
 
 
 export default NewsFeed
+
