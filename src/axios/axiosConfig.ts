@@ -1,8 +1,9 @@
 import axios from "axios";
 
 export const axiosInstance = axios.create({
-    baseURL: "http://localhost:4000",
+    baseURL: "https://one-news-portal-production.up.railway.app",
     headers: {
         'Content-Type' : 'application/json'
     }
+
 })
